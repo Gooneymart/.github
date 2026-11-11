@@ -1,6 +1,6 @@
  <div align="center">
 
-# ⚡ GOONEY MART SILICON
+# ⚡ GOONEYMART
 
 ### Indigenous Semiconductor IP & Systems Engineering
 
