@@ -1,17 +1,26 @@
-<div align="center">
+ <div align="center">
 
-# ⚡ Gooneymart
+# ⚡ GOONEY MART SILICON
 
-### **Deep-Tech Engineering from Sabah, Malaysia**
+### Indigenous Semiconductor IP & Systems Engineering
 
-**Zero-Overhead RISC-V Compute IP · Hardware–Software Co-Design · Silicon Architecture**
+**Gooneymart Silicon Sdn. Bhd.**  
+Registration No. 202601046179 / 1708274-M
 
-[![Location](https://img.shields.io/badge/Based_in-Sabah%2C_Malaysia-0f766e?style=for-the-badge)](#)
-[![Architecture](https://img.shields.io/badge/Architecture-RISC--V-6b21a8?style=for-the-badge)](#)
-[![Focus](https://img.shields.io/badge/Focus-Deep--Tech-111827?style=for-the-badge)](#)
-[![Open Source](https://img.shields.io/badge/Open%20Source-MPL--2.0-orange?style=for-the-badge)](#)
+<p align="center">
+  <strong>Deep-Tech Engineering from Sabah, Malaysia 🇲🇾</strong>
+</p>
 
-**We build the computing architecture we want to see in the world.**
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-Sabah%2C%20Malaysia-0f766e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Architecture-RISC--V-6b21a8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Engineering-Hardware--Software%20Co--Design-1d4ed8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20Source-MPL--2.0-orange?style=for-the-badge" />
+</p>
+
+**We build specialized computing technology through the convergence of silicon architecture and software engineering.**
+
+*Build Small. Think Deep. Go Beyond Silicon.*
 
 </div>
 
@@ -19,389 +28,369 @@
 
 ## 🛰️ Who We Are
 
-**Gooneymart™ is a Sabah-based deep-tech company building indigenous computing technology at the intersection of silicon architecture, RISC-V, hardware design, and low-level software.**
+**Gooneymart Silicon Sdn. Bhd.** is a Sabah-based deep-tech engineering company developing specialized computing technologies at the intersection of **RISC-V, semiconductor IP, hardware–software co-design, and systems programming.**
 
-We believe advanced semiconductor engineering does not have to originate from traditional technology hubs.
+We believe advanced semiconductor engineering should not be confined to traditional technology hubs.
 
-From **Sabah, Malaysia**, we are building the foundations for modular, transparent, and highly efficient computing systems — from instruction-set architecture and RTL, all the way to firmware, verification, and eventually physical silicon.
+From **Sabah, Malaysia**, we develop software-centric RISC-V instruction extensions, accelerator IP, and the supporting software infrastructure required to bring specialized computing architectures closer to practical deployment.
 
-> **World-class silicon architecture can be engineered anywhere.**
+Our engineering approach extends beyond RTL development. We work across the entire technology stack:
 
-Our approach is deliberately different:
+- RISC-V instruction-set extensions and accelerator architecture.
+- Synthesizable RTL and FPGA prototyping.
+- Software reference models and hardware verification.
+- Bare-metal firmware and low-level systems programming.
+- Linux kernel integration and driver development.
+- Runtime software, developer tooling, and process observability.
 
-**Start with the objective. Remove the bloat. Build the technology. Verify it rigorously.**
+We are deliberately building a lean engineering organization focused on proprietary intellectual property, technical validation, and sustainable innovation.
+
+> **World-class computing architecture can be engineered anywhere.**
+
+Our philosophy is straightforward:
+
+**Start with the objective. Remove unnecessary complexity. Engineer the solution. Verify the implementation.**
 
 ---
 
 ## 🧠 What We Build
 
-Gooneymart focuses on **hardware–software co-design**, developing the entire computing stack rather than treating hardware and software as isolated disciplines.
+Our core competency is **hardware–software co-design**.
+
+Rather than treating silicon architecture and software infrastructure as separate engineering disciplines, we develop them as interconnected components of a specialized computing platform.
+
+### Our Technology Stack
 
 ```text
-                    GOONEYMart TECHNOLOGY STACK
+                 GOONEYMART COMPUTING ECOSYSTEM
 
- ┌─────────────────────────────────────────────────────────┐
- │                  Applications / Runtime                 │
- ├─────────────────────────────────────────────────────────┤
- │                 User-Space Software                     │
- ├─────────────────────────────────────────────────────────┤
- │              DKMS / Runtime Infrastructure              │
- ├─────────────────────────────────────────────────────────┤
- │                 xzxt-firmware                            │
- │              Bare-Metal Rust / C                        │
- ├─────────────────────────────────────────────────────────┤
- │                  RISC-V ISA                             │
- │              Custom xzxt Extensions                     │
- ├─────────────────────────────────────────────────────────┤
- │              gooney-emu                                 │
- │       Cycle-Accurate Reference / Validation             │
- ├─────────────────────────────────────────────────────────┤
- │              Veryl / SystemVerilog                       │
- │                 RTL / Compute Core                     │
- ├─────────────────────────────────────────────────────────┤
- │                    FPGA / ASIC                           │
- │                Physical Silicon                         │
- └─────────────────────────────────────────────────────────┘
+ ┌───────────────────────────────────────────────────────────┐
+ │                  APPLICATIONS & WORKLOADS                 │
+ ├───────────────────────────────────────────────────────────┤
+ │              RUNTIME & USERSPACE SOFTWARE                 │
+ │                gooney-mon / SDK / Runtime                  │
+ ├───────────────────────────────────────────────────────────┤
+ │             LINUX KERNEL & DRIVER INTEGRATION             │
+ │                     gooney-ringzero                        │
+ ├───────────────────────────────────────────────────────────┤
+ │                  BARE-METAL FIRMWARE                      │
+ │                     xzxt-firmware                          │
+ ├───────────────────────────────────────────────────────────┤
+ │              RISC-V ISA & CUSTOM EXTENSIONS               │
+ │                       Albatross XZXT                       │
+ ├───────────────────────────────────────────────────────────┤
+ │             SOFTWARE REFERENCE & VALIDATION               │
+ │                       gooney-emu                           │
+ ├───────────────────────────────────────────────────────────┤
+ │                 RTL & HARDWARE IMPLEMENTATION             │
+ │                   Veryl / SystemVerilog                    │
+ ├───────────────────────────────────────────────────────────┤
+ │                  FPGA PROTOTYPING / ASIC                   │
+ │                   SYNTHESIS & INTEGRATION                  │
+ └───────────────────────────────────────────────────────────┘
 ```
+
+This vertically integrated development model allows us to evaluate architectural decisions across software, instruction execution, RTL implementation, and system integration.
 
 ---
 
 ## ⚙️ Core Technology
 
-### `xzxt`
+### `Albatross XZXT` — Specialized RISC-V Extension IP
 
-A custom **RISC-V instruction-set extension architecture** designed for specialized computation.
+Our flagship development initiative explores software-centric RISC-V instruction extensions and accelerator IP for specialized computing workloads.
 
-The goal is simple:
+**Albatross XZXT** focuses on bridging the gap between established software ecosystems and emerging RISC-V computing platforms.
 
-> **Move specialized workloads closer to the machine without unnecessary architectural overhead.**
+Its initial development direction investigates x86-to-RISC-V instruction translation through custom RISC-V execution extensions, combining hardware-assisted execution paths with complementary software runtime components.
 
-Our extension work explores domain-specific instruction design, custom execution paths, and tight integration between ISA, RTL, emulator, and firmware.
+The architecture is designed around:
+
+- RISC-V CUSTOM-0 instruction extensions.
+- Specialized instruction execution and translation operations.
+- Hardware–software partitioning of execution responsibilities.
+- RTL-based implementation and FPGA validation.
+- Software reference models and runtime integration.
+
+Our objective is to explore practical alternatives to conventional software-only translation approaches while preserving the ability to support established software workloads.
+
+### `gooney-emu` — RISC-V Software Reference Emulator
+
+A Rust-based RISC-V ISA simulation and development environment.
+
+`gooney-emu` provides a software reference model for RISC-V instruction execution, custom extension development, and hardware/software validation.
+
+Key development areas include:
+
+- RV64I instruction simulation.
+- Custom instruction extension support.
+- Modular extension architecture.
+- Execution tracing and workload testing.
+- Reference-model validation against hardware implementations.
+- Developer-facing TUI and command-line tooling.
+
+It serves as an important part of our pre-silicon engineering workflow, enabling reproducible testing before hardware deployment.
+
+### `gooney-ringzero` — Hardware Verification & Kernel Integration
+
+A modular Rust-based design-verification and hardware/software co-simulation toolkit.
+
+`gooney-ringzero` is designed to bridge RTL verification, simulation environments, and Linux kernel-space integration.
+
+Its engineering components include:
+
+- Hardware verification infrastructure.
+- Verilator-based simulation and co-simulation.
+- Automated driver-generation tooling.
+- Linux DKMS configuration auditing.
+- Kernel-space validation workflows.
+- Reproducible testing and integration utilities.
+
+The objective is to reduce the engineering friction between custom hardware IP and its supporting Linux software ecosystem.
+
+### `gooney-mon` — Linux Process Observability
+
+A high-precision, Rust-native process monitoring and telemetry dashboard for Linux.
+
+Unlike conventional system-wide monitoring utilities, `gooney-mon` emphasizes deep inspection of individual processes and complex userspace runtimes.
+
+Its monitoring architecture explores:
+
+- Thread and worker topology inspection.
+- Process memory and RSS profiling.
+- Linux procfs and memory-map analysis.
+- Cgroup v2 resource monitoring.
+- CPU throttling statistics.
+- Pressure Stall Information (PSI).
+- Target-specific monitoring through PID and systemd service resolution.
+
+It is designed to provide meaningful operational visibility into complex systems software without introducing unnecessary monitoring overhead.
+
+### `xzxt-firmware` — Bare-Metal Systems Software
+
+A lightweight Rust-based firmware environment for custom RISC-V instruction extensions.
+
+`xzxt-firmware` provides a low-level execution and validation environment for exercising custom instructions directly within a bare-metal RISC-V environment.
+
+Its development focuses on:
+
+- RV64 bare-metal execution.
+- Custom instruction integration.
+- Low-level hardware interaction.
+- Reference-model validation.
+- Firmware-level functional testing.
+
+### Veryl / SystemVerilog — RTL Engineering
+
+We utilize modern hardware description language workflows to translate architectural specifications into synthesizable hardware implementations.
+
+Our RTL engineering activities include:
+
+- Custom RISC-V instruction execution logic.
+- Arithmetic and logical execution paths.
+- Instruction decoding and control logic.
+- Pipeline and hazard management.
+- Hardware/software interface design.
+- FPGA synthesis and prototyping.
+
+The objective is to develop specialized hardware IP supported by a reproducible software verification environment.
 
 ---
 
-### `gooney-emu`
+## 🔬 Engineering Philosophy
 
-Our **Rust-based, cycle-accurate reference emulator and validation engine**.
+### 01. Software-Centric Silicon
 
-`gooney-emu` acts as the software-side golden reference for our hardware architecture.
+We believe hardware architecture should be developed with software behavior and ecosystem requirements in mind.
 
-It enables us to:
+Our focus is not simply building another processor core. We investigate specialized instruction extensions and accelerator IP that address specific computing challenges through hardware–software collaboration.
 
-* Model custom RISC-V instructions
-* Validate CPU behavior
-* Compare software execution against RTL
-* Detect hardware/software divergence
-* Develop extensions before physical hardware exists
-* Build reproducible verification workflows
+### 02. Hardware–Software Co-Design
 
-The objective is straightforward:
+The instruction architecture, RTL, emulator, firmware, kernel drivers, runtime, and verification tools must evolve together.
 
-**If the emulator says it should happen, the hardware should do exactly the same thing.**
+We design the software infrastructure alongside the hardware implementation rather than treating it as an afterthought.
+
+### 03. Verification First
+
+Architectural assumptions must be demonstrable.
+
+We prioritize software reference models, reproducible test vectors, RTL simulation, hardware validation, and systematic verification before advancing toward physical implementation.
+
+### 04. Open Engineering
+
+We embrace open standards, transparent development practices, and open-source tooling wherever commercially and technically appropriate.
+
+Our goal is to contribute useful engineering infrastructure while maintaining the ability to commercialize proprietary semiconductor IP.
+
+### 05. Lean & Sustainable Innovation
+
+We believe meaningful semiconductor innovation does not require an unnecessarily large organization.
+
+Gooneymart is structured around focused R&D, reusable engineering infrastructure, specialized intellectual property, and sustainable technical development.
 
 ---
 
-### `xzxt-firmware`
+## 🧪 Technology Development Roadmap
 
-A lightweight **bare-metal Rust/C firmware environment** designed to execute directly on custom RISC-V compute architectures.
-
-No unnecessary operating-system layers.
-
-No legacy software assumptions.
-
-Just:
+Our development strategy follows a progressive validation model, moving from software and RTL verification toward FPGA-based system integration and commercial IP readiness.
 
 ```text
-Boot
- ↓
-Firmware
- ↓
-CPU
- ↓
-Custom Instructions
- ↓
-Hardware
+       SOFTWARE & RTL VALIDATION
+                  TRL 4
+                    │
+                    ▼
+          FPGA PROTOTYPING
+                  TRL 5
+                    │
+                    ▼
+        HARDWARE VALIDATION
+                  TRL 6
+                    │
+                    ▼
+       SYSTEM INTEGRATION & PILOTS
+                  TRL 7
+                    │
+                    ▼
+        COMMERCIAL QUALIFICATION
+               TRL 8–9
 ```
 
----
+| Stage | Engineering Focus |
+|---|---|
+| TRL 4 | Software reference validation, RTL simulation, and co-simulation |
+| TRL 5 | FPGA synthesis, prototyping, and experimental hardware validation |
+| TRL 6 | Integrated hardware/software demonstrator and relevant-environment validation |
+| TRL 7 | System-level demonstration and pilot integration |
+| TRL 8–9 | Qualification, deployment, and commercial readiness |
 
-### `Veryl / SystemVerilog`
-
-We use modern HDL workflows to translate architectural ideas into synthesizable RTL.
-
-Our hardware development stack is designed around:
-
-* Modular RTL
-* RISC-V compatibility
-* Custom instruction execution
-* Simulation
-* Formal verification
-* FPGA prototyping
-* Future ASIC integration
-
----
-
-## 🔬 Our Engineering Philosophy
-
-### **Zero Overhead**
-
-We aggressively question unnecessary layers between software intent and physical execution.
-
-### **Open Architecture**
-
-We build around open standards and transparent engineering wherever possible.
-
-### **Hardware–Software Co-Design**
-
-The ISA, emulator, RTL, firmware, and runtime must evolve together.
-
-### **Verification First**
-
-We do not want architecture that merely *looks correct*.
-
-We want architecture that can be **demonstrated, reproduced, compared, and verified**.
-
-### **Build From Sabah**
-
-Geography should not determine who is allowed to build advanced technology.
-
-Gooneymart exists to demonstrate that sophisticated semiconductor architecture and systems engineering can be developed from **East Malaysia**.
-
----
-
-## 🧪 Current Technology Roadmap
-
-Our development follows a progression from software validation toward physical silicon.
-
-```text
-TRL 4
- │
- │  Simulation & Co-Simulation
- │  ├── xzxt ISA
- │  ├── gooney-emu
- │  ├── Veryl RTL
- │  └── Zero-Divergence Validation
- │
- ▼
-TRL 5
- │
- │  FPGA Prototyping
- │  ├── Physical RTL execution
- │  ├── Synthesis
- │  ├── Timing analysis
- │  └── Hardware debugging
- │
- ▼
-TRL 6
- │
- │  Compliance & System Integration
- │  ├── RISC-V compliance
- │  ├── Runtime infrastructure
- │  ├── DKMS
- │  └── Integration tooling
- │
- ▼
-TRL 7
- │
- │  Commercial IP
- │  ├── Production-ready documentation
- │  ├── Verification infrastructure
- │  ├── Integration package
- │  └── Semiconductor licensing
-```
-
-Our company profile identifies the foundational validation stage as **TRL 4**, with the current engineering focus on transitioning toward **TRL 5 physical FPGA prototyping**.
+*Technology readiness levels are development targets. Actual advancement depends on documented validation evidence and the applicable TRL assessment criteria.*
 
 ---
 
 ## 🌏 Why Sabah?
 
-The semiconductor industry is becoming increasingly important to Malaysia's technological future.
+Malaysia has an increasingly important role in the global semiconductor industry.
 
-But advanced computing should not be concentrated exclusively in Kuala Lumpur, Penang, Singapore, Silicon Valley, or other established technology centers.
+While much of the country's established semiconductor ecosystem is concentrated in Peninsular Malaysia, we believe East Malaysia also has opportunities to contribute to the next generation of computing technology.
 
-**Sabah can build too.**
+Gooneymart Silicon Sdn. Bhd. was established in Sabah with a clear ambition:
 
-Gooneymart is an experiment in proving exactly that.
+**To demonstrate that specialized semiconductor IP, RISC-V architecture, and advanced systems engineering can originate from East Malaysia.**
 
-We want to contribute to a future where engineers in East Malaysia can work on:
+Our location is not a limitation on our engineering ambitions.
 
-* CPU architecture
-* RISC-V
-* FPGA
-* ASIC design
-* semiconductor IP
-* embedded systems
-* hardware verification
-* low-level systems software
-* hardware acceleration
+We aim to participate in the broader Malaysian and international semiconductor ecosystem through:
 
-Our company profile explicitly positions Gooneymart as a Sabah-based effort to develop indigenous compute IP and demonstrate that high-end hardware/software co-design can be engineered in East Malaysia.
+- Research and development collaborations.
+- FPGA and RTL engineering partnerships.
+- University and research institution engagement.
+- Hardware validation and integration partnerships.
+- International RISC-V ecosystem participation.
+- Commercial semiconductor IP development.
 
----
-
-## 🌐 Open Source Meets Commercial IP
-
-Gooneymart follows a **hybrid technology model**.
-
-Open-source projects provide transparency, developer access, experimentation, and verification.
-
-Commercial technology can provide specialized semiconductor IP, integration, and engineering services.
-
-```text
-                 GOONEYMart ECOSYSTEM
-
-                      ┌───────────┐
-                      │   RISC-V  │
-                      └─────┬─────┘
-                            │
-                 ┌──────────┴──────────┐
-                 │                     │
-            OPEN SOURCE          COMMERCIAL IP
-                 │                     │
-        ┌────────┴────────┐     ┌──────┴──────┐
-        │                 │     │             │
-    gooney-emu       xzxt-firmware  xzxt Core   Integration
-        │                 │     │             │
-        └────────┬────────┘     └──────┬──────┘
-                 │                     │
-                 └──────────┬──────────┘
-                            │
-                      PHYSICAL SILICON
-```
-
-Our development philosophy is to maintain an auditable verification path from RTL through emulator and software tooling, while commercializing semiconductor IP through licensing and integration.
+We intend to grow through engineering capability, validated technology, and meaningful partnerships.
 
 ---
 
-## 📦 Projects
+## 📦 Open-Source Engineering Projects
 
-| Project                | Description                                                                       |
-| ---------------------- | --------------------------------------------------------------------------------- |
-| 🧠 **gooney-emu**      | Cycle-accurate RISC-V emulator and hardware/software divergence validation engine |
-| ⚙️ **xzxt-firmware**   | Bare-metal Rust/C firmware for custom RISC-V extensions                           |
-| 🔬 **xzxt**            | Custom RISC-V instruction-set extension architecture                              |
-| 🧩 **Gooneymart RTL**  | Veryl/SystemVerilog compute-core architecture                                     |
-| 🛠️ **Gooney Tooling** | Developer, verification, and integration tools                                    |
+Our GitHub organization hosts a growing collection of engineering tools and supporting infrastructure developed alongside our semiconductor IP initiatives.
 
-> Individual repositories may evolve independently as the architecture matures.
+| Project | Description | Primary Technology |
+|---|---|---|
+| 🧠 **gooney-emu** | RISC-V software reference emulator and custom extension validation | Rust |
+| 🛡️ **gooney-ringzero** | Modular DV, co-simulation, and kernel integration toolkit | Rust / Linux |
+| 📊 **gooney-mon** | Linux process monitoring and runtime telemetry dashboard | Rust / Ratatui |
+| ⚙️ **xzxt-firmware** | Bare-metal firmware for custom RISC-V extensions | Rust |
+| 🧩 **Albatross XZXT** | Specialized RISC-V instruction extension and accelerator IP | SystemVerilog / Rust |
+| 🔬 **Gooneymart RTL** | Synthesizable hardware implementation and verification | Veryl / SystemVerilog |
+| 🛠️ **Gooney Tooling** | Developer utilities, testing infrastructure, and integration tools | Rust |
 
----
-
-## 🛠️ Technology
-
-<div align="center">
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square\&logo=rust\&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square\&logo=c\&logoColor=white)
-![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square)
-![Veryl](https://img.shields.io/badge/Veryl-HDL-blue?style=flat-square)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-RTL-green?style=flat-square)
-![FPGA](https://img.shields.io/badge/FPGA-Prototyping-purple?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-Engineering-black?style=flat-square\&logo=linux)
-
-</div>
+Explore our repositories to follow ongoing engineering development.
 
 ---
 
-## 🚀 Where We're Going
+## 🛠️ Technology & Engineering Tools
 
-Our long-term objective is not simply to create another emulator or another RISC-V core.
+Our development ecosystem incorporates modern systems programming, hardware design, and verification technologies.
 
-We are building toward a **complete, independently developed compute architecture ecosystem**.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,c,linux,bash,git,github" />
+</p>
 
-```text
-       ARCHITECTURE
-             │
-             ▼
-        CUSTOM ISA
-             │
-             ▼
-            RTL
-             │
-             ▼
-        VERIFICATION
-             │
-             ▼
-        FPGA PROTOTYPE
-             │
-             ▼
-        SYSTEM SOFTWARE
-             │
-             ▼
-        COMMERCIAL IP
-             │
-             ▼
-          SILICON
-```
+**Hardware & Architecture**
+- RISC-V ISA
+- Veryl
+- SystemVerilog
+- FPGA prototyping
+- RTL simulation and synthesis
 
-The eventual objective is a commercially licensable semiconductor IP package capable of integration into third-party RISC-V SoC designs.
+**Systems Software**
+- Rust
+- Linux kernel development
+- Bare-metal firmware
+- DKMS
+- Userspace runtime development
+
+**Verification & Tooling**
+- Verilator
+- Cocotb
+- Hardware/software co-simulation
+- Golden-reference validation
+- Automated design verification
 
 ---
 
-## 🤝 Collaborate With Us
+## 🤝 Commercial & Technical Partnerships
 
-We're interested in connecting with people and organizations working on:
+**Gooneymart Silicon Sdn. Bhd.** develops specialized semiconductor IP and supporting engineering infrastructure.
 
-* RISC-V
-* CPU architecture
-* FPGA
-* ASIC
-* Semiconductor IP
-* Hardware verification
-* Embedded systems
-* Rust
-* Low-level systems
-* Hardware acceleration
-* Academic research
-* Deep-tech commercialization
+We welcome opportunities for collaboration in:
 
-Whether you're an engineer, researcher, university, startup, semiconductor company, or simply someone who enjoys breaking computers at the instruction level:
+- RISC-V instruction extension development.
+- Custom accelerator and specialized compute IP.
+- Hardware–software co-design.
+- RTL development and FPGA prototyping.
+- Semiconductor IP integration.
+- Firmware, runtime, and Linux driver engineering.
+- Hardware verification and validation.
+- Research and technology demonstration.
 
-**You're welcome here.**
+We are particularly interested in collaborations with semiconductor companies, research institutions, universities, FPGA engineering teams, and organizations exploring open computing architectures.
 
----
+### Commercial Engagement
 
-## 📡 Commercial & Technical Partnerships
+For proprietary IP licensing, custom architecture development, ASIC integration, engineering services, or enterprise support:
 
-Gooneymart's technology roadmap includes semiconductor IP licensing, custom instruction-extension co-design, ASIC integration, and specialized engineering support.
+**📧 gooneymart@gmail.com**
 
-For commercial licensing, proprietary ASIC integration, custom architecture development, or technical partnerships:
-
-**📧 [gooneymart@gmail.com](mailto:gooneymart@gmail.com)**
+**GitHub:** [github.com/gooneymart](https://github.com/gooneymart)
 
 ---
 
-## 🌴 Built in Sabah. Designed for the World.
+## 📄 Licensing & Intellectual Property
 
-We are not trying to imitate Silicon Valley.
+Gooneymart adopts a hybrid intellectual property strategy.
 
-We are not trying to become another legacy semiconductor company.
+Selected developer tools, validation frameworks, and supporting software are released under open-source licenses, including the Mozilla Public License 2.0 (MPL-2.0).
 
-We're building something smaller, sharper, more transparent, and fundamentally engineering-driven.
+Proprietary semiconductor IP, architectural implementations, and commercial deliverables may be subject to separate licensing and contractual agreements.
 
-From **Sabah, Malaysia**, we're starting at the instruction level and working our way toward silicon.
+Please refer to the individual repository's `LICENSE` file for its applicable licensing terms.
 
-> ### **The next generation of computing doesn't have to come from somewhere else.**
->
-> ### **We can build it here.**
-
-<br>
-
-<div align="center">
-
-**Gooneymart™**
-
-*Deep-Tech Engineering · RISC-V · Silicon Architecture*
-
-**Sabah, Malaysia 🇲🇾**
-
-</div>
+For commercial licensing and IP inquiries, contact Gooneymart directly.
 
 ---
 
 <div align="center">
 
-### ⚡ Build Small. Think Deep. Go Beyond Silicon.
+# ⚡ GOONEYMART SILICON
+
+### Build Small. Think Deep. Go Beyond Silicon.
+
+**Engineered in Sabah, Malaysia 🇲🇾**
+
+<sub>Gooneymart Silicon Sdn. Bhd. · Registration No. 202601046179 / 1708274-M</sub>
 
 </div>
